@@ -1,0 +1,137 @@
+a{
+    text-decoration: none;
+}
+.container{
+    max-width: 1440px;
+}
+.main{
+    left: 0 auto;
+    background: #131313;
+}
+.main_wrapper{
+    display: flex;
+}
+.main_content{
+    margin-top: 177px;
+    margin-left: 135px;
+    min-width: 625px;
+}
+.main_content-title{
+    font-family: Yeseva One;
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 37px;
+    letter-spacing: -0.07em;
+    text-align: left;
+    color: #E3B873;
+    text-transform: uppercase;
+}
+.main_content-txt{
+    color: #FFFFFF;
+}
+
+.main_content-conditions_data{
+    display: none;
+}
+.active_data{
+    display: block;
+}
+.main_content-conditions_title{
+    font-family: Yeseva One;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 37px;
+    text-align: left;
+    color: #E3B873;
+    text-transform: uppercase;
+}
+.main_content-conditions_txt{
+    color: #FFFFFF;
+}
+.main_content-conditions_1{
+    display: flex;
+}
+.main_content-conditions_location{
+    margin-right: 124px;
+}
+.main_content-conditions_2{
+    display: flex;
+}
+.main_content-conditions_price{
+    margin-left: 104px;
+}
+
+.main_content-manipulation{
+    margin-top: 85px;
+    margin-bottom: 125px;
+}
+.slider_btn-prev{
+    margin-right: 30px;
+}
+.slider_dot{
+    opacity: .3;
+}
+.slider_dot+.slider_dot{
+    margin-left: 18px;
+}
+.slider_dot:hover{
+    border: 2px solid #FFFFFF;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.active_dot{
+    opacity: 1;
+}
+.slider_btn-next{
+    margin-left: 30px;    
+}
+.slider_btn-next,
+.slider_btn-prev:hover{
+    cursor: pointer;
+}
+
+.main_slider-navi{
+    margin-top: 107px;
+}
+.main_slider-navi_link{
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #FFFFFF;
+    opacity: .3;
+}
+.main_slider-navi_link + .main_slider-navi_link{
+    margin-left: 60px;
+}
+.main_slider-navi_link:hover{
+    color: #E3B873;
+    text-decoration: underline;
+    opacity: 1;
+}
+.main_slider-navi_link:active{
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #E3B873;
+}
+.active_link{
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #E3B873;
+    opacity: 1;
+    text-decoration: underline;
+}
+
+.main_slider-inner{
+    margin-top: 45px;
+    width: 679px;
+    height: 483px;
+    overflow: hidden;
+    position: relative;
+}
+.main_slider-line{
+    width: 2037px;
+    height: 483px;
+    display: flex;
+    position: relative;
+    left: 0;
+    transition: all ease 1s;
+}
